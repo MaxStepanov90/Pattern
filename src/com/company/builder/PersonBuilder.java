@@ -1,0 +1,12 @@
+package com.company.builder;
+
+
+interface PersonBuilder {
+    PersonBuilder setName(String name);
+
+    PersonBuilder setAge(int age);
+
+    PersonBuilder setSalary(double salary);
+
+    Person build();
+}
